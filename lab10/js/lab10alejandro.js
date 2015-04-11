@@ -34,11 +34,11 @@ function Validate(){};
 
   $('.button').bind('click', function(event){
 
-    var validate = new Validate();
+  	var validate = new Validate();
 
-    var data = $('#nid').val();
+  	var data = $('#nid').val();
 
-    if(validate.userid(data)){
+  	if(validate.userid(data)){
       $('#nid').next().hide();
       $('.nid-error').next().hide();
       localStorage.setItem('nid', data);
@@ -167,12 +167,9 @@ function Validate(){};
     else{
       $('.city-error').hide();
       localStorage.setItem('city', count);
-
-      if(! $('#info').length){
       $('#buttons').append(
         '<a id="info" href="#openModal">Ver Pedido</a>'
-      )
-      };
+      );
       $('.inputs').removeClass('error');
       $('.inputs').addClass('success');
     }
@@ -183,7 +180,6 @@ function Validate(){};
 
 $(document).on('click', '#info', function(){
 
-if(! $('#openModal > div h2').length){
     $('#openModal > div').append(
       '<h2>Este es tu pedido</h2>' +
       '<ul>' +
@@ -200,10 +196,6 @@ if(! $('#openModal > div h2').length){
     $.each(meals, function(key, value){
           $('#listMeals > ul').append('<li>El producto ' + key + ' cuesta $' + value + ' M/Cte</li>');
     });
-  }
-
-}
-
-  );
+  });
 
 });
