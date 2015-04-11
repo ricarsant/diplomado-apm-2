@@ -182,14 +182,15 @@ function Validate(){};
 
 
 $(document).on('click', '#info', function(){
-
+var email1 = localStorage.getItem('email');
+console.log(email1);
 if(! $('#openModal > div h2').length){
     $('#openModal > div').append(
       '<h2>Este es tu pedido</h2>' +
       '<ul>' +
       '<li>Su nombre es: ' + localStorage.getItem('username') + '</li>' +
       '<li>Su documento es: ' + localStorage.getItem('nid') + '</li>' +
-      '<li>Su email es: ' + localStorage.getItem('email') + '</li>' +     
+      '<li>Su email es: ' + email1 + '</li>' +     
       '<li id="listMeals">Los alimentos que Solicita son: <ul></ul></li>' + 
       '<li>El modo de pago es: ' + localStorage.getItem('paymode') + '</li>' +  
       '<li>La ciudad donde habita es: ' + localStorage.getItem('city') + '</li></ul>'  
