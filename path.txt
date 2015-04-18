@@ -1,0 +1,25 @@
+copia original
+C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\nodejs\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\
+
+con tools
+C:\ProgramData\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\nodejs\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Users\adminespec\AppData\Local\Android\sdk\platform-tools;C:\Users\adminespec\AppData\Local\Android\sdk\tools
+
+
+path usr
+C:\Users\adminespec\AppData\Roaming\npm;C:\Users\adminespec\AppData\Local\Android\sdk\platform-tools;C:\Users\adminespec\AppData\Local\Android\sdk\tools;%JAVA_HOME%\bin;%ANT_HOME%\bin
+
+
+
+
+C:\Users\adminespec>set path
+Path=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windo
+ws\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Co
+mmon Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Progr
+am Files (x86)\nodejs\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Pho
+ne\;C:\Users\adminespec\AppData\Roaming\npm;C:\Users\adminespec\AppData\Local\An
+droid\sdk\platform-tools;C:\Users\adminespec\AppData\Local\Android\sdk\tools;C:\
+Program Files\Java\jdk1.6.0_45\bin;C:\apache-ant-1.9.4\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+
+
+
