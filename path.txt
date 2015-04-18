@@ -21,5 +21,5 @@ droid\sdk\platform-tools;C:\Users\adminespec\AppData\Local\Android\sdk\tools;C:\
 Program Files\Java\jdk1.6.0_45\bin;C:\apache-ant-1.9.4\bin
 PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 
-
+C:\Program Files\Java\jdk1.6.0_45\bin;C:\apache-ant-1.9.4\bin;C:\Users\adminespec\AppData\Roaming\npm
 
